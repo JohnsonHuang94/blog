@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "null",
+  "main": "index.js",
+  "repository": "git@github.com:JohnsonHuang94/blog.git",
+  "author": "johnsonhuang94",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "publish": "deploy.sh"
+  },
+  "devDependencies": {
+    "markdown-it-disable-url-encode": "^1.0.1",
+    "vuepress": "^1.8.2"
+  }
+}
